@@ -12,6 +12,15 @@
 
 }
 
+/*create media queries to target different viewports */
+
+
+
+
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -21,8 +30,8 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  display: grid; 
   
+
 }
 
 h1,
@@ -36,4 +45,18 @@ h6 {
 
 p {
   margin: 0;
+}
+
+
+.header {
+  display: grid; 
+  grid-template-columns:25% 75%;
+
+}
+
+.page-wrapper {
+
+  display: grid; 
+  grid-template-columns:25% 75%;
+
 }
