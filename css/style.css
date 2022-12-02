@@ -1,3 +1,17 @@
+:root{
+
+  --MyDisplayName: "Ian Logendra";
+  --MobileWidth: 600px;
+  --TabletWidth: 800px;
+  --PCWidth: 1240px;
+
+  --MobileWorkColumns:1;
+  --TabletWorkColumns:1;
+  --PCWorkColumns:2;
+
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +21,8 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  display: grid; 
+  
 }
 
 h1,
