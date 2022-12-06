@@ -168,25 +168,110 @@ background-image: url("../images/02-hero-bg.jpg") ;
 }
 
 .page-section{
-  padding:35px; 
+  padding:15px; 
+}
+
+
+.page-section h3{
+  font-size: 150%;
+  font-weight: 300;
+  margin: 0px 0px;
+
+}
+
+.page-section h6{  
+  
+  font-size: 75%;
+  font-weight: 300;
+  margin: 0px 0px;
+  border-color: black;
+  border-width: 10px;
 }
 
 #about
 {
     /* display: grid;   */
-    background-color: yellow;
-   
+    /* background-color: yellow; */
+
+  
+}
+
+#about-grid{
+
+  min-width: 100px;
+  margin: 0 5px;
+  /* min-height: 20vh; */
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  background-image: url("../images/02-portfolio-4.jpg");
+
 
 }
 
 #work
 {
-  background-color: red;
+  /* background-color: red; */
+  
 }
+
+#work-grid
+{
+  min-height: 100px;
+  margin: 0px 5pt; 
+  height: 70vh; 
+  display:grid;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "Surf Surf"
+  "LED Calc"
+  "Pastel Run";
+  
+}
+
+#SurfReport
+{
+  grid-area: Surf;
+  background-image: url("../images/02-portfolio-4.jpg");
+  cursor: pointer;
+}
+
+#LEDWall
+{
+  grid:LED;
+  background-image: url("../images/02-portfolio-1.jpg");
+  cursor: pointer;
+}
+
+#Calculator
+{
+  grid:Calc;
+  background-image: url("../images/02-portfolio-2.jpg");
+  cursor: pointer;
+
+}
+
+#PastelPuzzles
+{
+  grid:Pastel;
+  background-image: url("../images/02-portfolio-3.jpg");
+  cursor: pointer;
+}
+
+#RunBuddy
+{
+  grid: Run;
+  background-image: url("../images/02-run-buddy.jpg");
+  cursor: pointer;
+}
+
+
 
 #contact {
 
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
+  
 }
 
 #contactdetails  ul  
@@ -207,4 +292,10 @@ background-image: url("../images/02-hero-bg.jpg") ;
   text-decoration-thickness: 10% ;
 }
 
+
+#TitleBox{
+  /* display: flex; */
+    
+  /* background-color: aqua; */
+}
 
