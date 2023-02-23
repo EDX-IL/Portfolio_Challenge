@@ -1,7 +1,4 @@
-# Module2-Challenge
-Working With CSS Challenge: Portfolio
-
-
+# Portfolio Challenge
 
 ## Table of contents
 
@@ -21,9 +18,23 @@ Working With CSS Challenge: Portfolio
 
 ## Overview
 
+Build a portfolio page which can be added to as the course progresses
+
 ### The challenge
 
-Describe the challenge here
+The challenge is to showcase my skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights my strongest work as well as the thought processes behind it. 
+ 
+In this challenge i will apply the core skills I've recently learned: flexbox, media queries, and CSS variables. 
+
+The criteria is as follows:
+
+* When the page is loaded the page presents my name, a recent photo or avatar, and links to sections about me, my work, and how to contact me
+* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
+* When viewing the section about my work then the section contains titled images of your applications
+* When presented with the my first application then that application's image should be larger in size than the others
+* When images of the applications are clicked then the user is taken to that deployed application
+* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+
 
 ### Screenshot
 
@@ -39,10 +50,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/EDX-IL/Portfolio_Challenge](https://github.com/EDX-IL/Portfolio_Challenge)
+- Live Site URL: [https://edx-il.github.io/Portfolio_Challenge/](https://edx-il.github.io/Portfolio_Challenge/)
 
 ## My process
+
+I began by deciding on the layout of the page.
+
+I then created the various sections in html using flexbox and css grid. 
+
+One the layout was created i populated the sections with the pertinent information
 
 ### Built with
 
@@ -52,8 +69,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS Grid
 - Mobile-first workflow
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
