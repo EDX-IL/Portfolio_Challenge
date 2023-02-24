@@ -104,7 +104,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Position last flex item at the end of container](https://stackoverflow.com/questions/33924655/position-last-flex-item-at-the-end-of-container#:~:text=Therefore%20you%20could%20use%20margin,last%20element%20at%20the%20bottom.&text=Likewise%2C%20you%20can%20also%20use,for%20the%20same%20alignment%20horizontally.&text=Save%20this%20answer.,-Show%20activity%20on) - This article showed me margin-left:auto which was the command i need to position my nav links at the right-hand side of my header bar
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**

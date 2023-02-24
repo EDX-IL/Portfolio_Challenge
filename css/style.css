@@ -56,6 +56,8 @@ p {
 }
   
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -91,7 +93,8 @@ h1{
   padding-left:1%;
   padding-right:1%;
   font:bold;  
-  width:300px;
+  width:250px;
+  height: 56.5px;
   
 
 }
@@ -103,17 +106,17 @@ h2{
 }
 
 nav {
-  align-self: flex-end;
-  width: 800px;
+  width: 400px;
 }
 
 nav ul {
 
   display: flex;
   justify-content: space-between;
-  min-width: 400px;
+  /* min-width: 400px; */
   padding-right:5%; 
-  list-style-type: none;
+  list-style-type:none;
+  align-self: flex-end;
 }
 
 nav a {
@@ -130,7 +133,12 @@ nav a:hover {
   color: #fff;
 }
 
+.navlinks{
+  height:56.6px;
+  /* align-self: flex-end; */
+  margin-left: auto;
 
+}
 
 .hero-banner 
 {
