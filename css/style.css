@@ -191,8 +191,8 @@ nav a:hover {
 }
 
 #about {
-  /* display: grid;   */
-  /* background-color: yellow; */
+  display: grid;   
+ background-color: yellow; 
 
 
 }
@@ -211,7 +211,7 @@ nav a:hover {
 }
 
 #work {
-  /* background-color: red; */
+  background-color: red;
 
 }
 
@@ -264,25 +264,19 @@ nav a:hover {
 
 #contact {
 
-  /* background-color: greenyellow; */
+  background-color: greenyellow;
 
 }
 
 #contactdetails ul {
   display: flex;
   justify-content: space-around;
-
-  min-width: 400px;
+  min-width: 200px;
   list-style-type: none;
-}
 
-#contactdetails a {
-
-
-  font-size: medium;
+  font-size:larger;
   font-weight: bold;
-  text-decoration: underline solid;
-  text-decoration-thickness: 10%;
+
 }
 
 
