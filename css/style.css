@@ -1,4 +1,4 @@
-:root{
+:root {
 
   --MyDisplayName: "Ian Logendra";
 
@@ -7,20 +7,20 @@
   --MobileWidth: 786px;
   --PCWidth: 1240px; */
 
-  --MobileWorkColumns:1;
-  --TabletWorkColumns:1;
-  --PCWorkColumns:2;
+  --MobileWorkColumns: 1;
+  --TabletWorkColumns: 1;
+  --PCWorkColumns: 2;
 
   --bgcolour: white;
 
-  --HeaderBGColour:rgb(44, 44, 44); 
-  --HeaderMyNameColour:rgb(44, 44, 44); 
-  --HeaderMyNameBGColour:rgb(80, 105, 113); 
-  --HeaderNavAColour:rgb(163, 196, 238);
+  --HeaderBGColour: rgb(44, 44, 44);
+  --HeaderMyNameColour: rgb(44, 44, 44);
+  --HeaderMyNameBGColour: rgb(80, 105, 113);
+  --HeaderNavAColour: rgb(163, 196, 238);
 
---MainPageTextColour: rgb(32, 91, 111); 
+  --MainPageTextColour: rgb(32, 91, 111);
 
-  --HeroBannerBGColour:white; 
+  --HeroBannerBGColour: white;
 }
 
 h1,
@@ -40,22 +40,18 @@ p {
 
 /*mobile size */
 
-@media screen and (max-width:786px)
+@media screen and (max-width:786px) {
 
-{
-  
   main,
-  nav
-  {
+  nav {
     flex-direction: column;
   }
-  header 
-  {    background-color: aqua;
+
+  header {
+    background-color: aqua;
   }
 
 }
-  
-
 
 
 * {
@@ -67,8 +63,6 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
- 
-
 }
 
 
@@ -78,31 +72,28 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding: 0%;
-  background-color:var(--HeaderBGColour);
+  background-color: var(--HeaderBGColour);
   padding-bottom: .5%;
   padding-top: .25%;
 
 }
 
 
+h1 {
 
-h1{
-
-  color:var(--HeaderMyNameColour);
+  color: var(--HeaderMyNameColour);
   background-color: var(--HeaderMyNameBGColour);
-  padding-left:1%;
-  padding-right:1%;
-  font:bold;  
-  width:250px;
+  padding-left: 1%;
+  padding-right: 1%;
+  font: bold;
+  width: 250px;
   height: 56.5px;
-  
-
 }
 
-h2{
+h2 {
   align-items: center;
   justify-content: center;
-  padding:.5%;
+  padding: .5%;
 }
 
 nav {
@@ -114,18 +105,17 @@ nav ul {
   display: flex;
   justify-content: space-between;
   /* min-width: 400px; */
-  padding-right:5%; 
-  list-style-type:none;
+  padding-right: 5%;
+  list-style-type: none;
   align-self: flex-end;
 }
 
 nav a {
   color: var(--HeaderNavAColour);
-  font-size:medium;
+  font-size: medium;
   font-weight: bold;
   text-decoration: underline solid;
-  text-decoration-thickness: 20% ;
-
+  text-decoration-thickness: 20%;
 
 }
 
@@ -133,34 +123,27 @@ nav a:hover {
   color: #fff;
 }
 
-.navlinks{
-  height:56.6px;
-  /* align-self: flex-end; */
+.navlinks {
+  height: 56.6px;
   margin-left: auto;
+}
+
+.hero-banner {
+  background-color: Var(--HeroBannerBGColour);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/02-hero-bg.jpg");
 
 }
 
-.hero-banner 
-{
-/* background-image */
-background-color: Var(--HeroBannerBGColour);
-height: 200px;
-background-repeat: no-repeat;
-background-position: center;
-background-image: url("../images/02-hero-bg.jpg") ;
-
-
-}
-
-.hero-banner h2 
-{
-  display:flex;
+.hero-banner h2 {
+  display: flex;
   background-color: var(--HeaderMyNameBGColour);
-  color:var(--HeaderMyNameColour);
-  padding-left:50px;
-  padding-right:10px;
-  font:bold;  
-
+  color: var(--HeaderMyNameColour);
+  padding-left: 50px;
+  padding-right: 10px;
+  font: bold;
 
 }
 
@@ -168,41 +151,38 @@ background-image: url("../images/02-hero-bg.jpg") ;
 
 
 
-.page-wrapper
-
-{
+.page-wrapper {
   /* background-color: yellow; */
-  display: grid; 
-  grid-template-columns:20% 80%;
-  color:var(--MainPageTextColour);
-  
-  
+  display: grid;
+  grid-template-columns: 20% 80%;
+  color: var(--MainPageTextColour);
+
+
 
 }
 
-.page-wrapper h2
-{
+.page-wrapper h2 {
   font-size: 300%;
-  text-align:right; 
+  text-align: right;
   padding-right: 5%;
-  
-  
+
+
 }
 
-.page-section{
-  padding:15px; 
+.page-section {
+  padding: 15px;
 }
 
 
-.page-section h3{
+.page-section h3 {
   font-size: 150%;
   font-weight: 300;
   margin: 0px 0px;
 
 }
 
-.page-section h6{  
-  
+.page-section h6 {
+
   font-size: 75%;
   font-weight: 300;
   margin: 0px 0px;
@@ -210,20 +190,19 @@ background-image: url("../images/02-hero-bg.jpg") ;
   border-width: 10px;
 }
 
-#about
-{
-    /* display: grid;   */
-    /* background-color: yellow; */
+#about {
+  /* display: grid;   */
+  /* background-color: yellow; */
 
-  
+
 }
 
-#about-grid{
+#about-grid {
 
   min-width: 100px;
   margin: 0 5px;
   /* min-height: 20vh; */
-  display:grid;
+  display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   background-image: url("../images/02-portfolio-4.jpg");
@@ -231,58 +210,51 @@ background-image: url("../images/02-hero-bg.jpg") ;
 
 }
 
-#work
-{
+#work {
   /* background-color: red; */
-  
+
 }
 
-#work-grid
-{
+#work-grid {
   min-height: 100px;
-  margin: 0px 5pt; 
-  height: 70vh; 
-  display:grid;
+  margin: 0px 5pt;
+  height: 70vh;
+  display: grid;
   grid-template-rows: 50% 25% 25%;
   grid-template-columns: 50% 50%;
-  grid-template-areas: 
-  "Surf Surf"
-  "LED Calc"
-  "Pastel Run";
-  
+  grid-template-areas:
+    "Surf Surf"
+    "LED Calc"
+    "Pastel Run";
+
 }
 
-#SurfReport
-{
+#SurfReport {
   grid-area: Surf;
   background-image: url("../images/02-portfolio-4.jpg");
   cursor: pointer;
 }
 
-#LEDWall
-{
-  grid:LED;
+#LEDWall {
+  grid: LED;
   background-image: url("../images/02-portfolio-1.jpg");
   cursor: pointer;
 }
 
-#Calculator
-{
-  grid:Calc;
+#Calculator {
+  grid: Calc;
   background-image: url("../images/02-portfolio-2.jpg");
   cursor: pointer;
 
 }
 
-#PastelPuzzles
-{
-  grid:Pastel;
+#PastelPuzzles {
+  grid: Pastel;
   background-image: url("../images/02-portfolio-3.jpg");
   cursor: pointer;
 }
 
-#RunBuddy
-{
+#RunBuddy {
   grid: Run;
   background-image: url("../images/02-run-buddy.jpg");
   cursor: pointer;
@@ -293,31 +265,29 @@ background-image: url("../images/02-hero-bg.jpg") ;
 #contact {
 
   /* background-color: greenyellow; */
-  
+
 }
 
-#contactdetails  ul  
-{
+#contactdetails ul {
   display: flex;
   justify-content: space-around;
-  
+
   min-width: 400px;
   list-style-type: none;
 }
-#contactdetails  a 
-{
 
- 
-  font-size:medium;
+#contactdetails a {
+
+
+  font-size: medium;
   font-weight: bold;
   text-decoration: underline solid;
-  text-decoration-thickness: 10% ;
+  text-decoration-thickness: 10%;
 }
 
 
-#TitleBox{
+#TitleBox {
   /* display: flex; */
-    
+
   /* background-color: aqua; */
 }
-
